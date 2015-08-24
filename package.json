@@ -1,0 +1,33 @@
+{
+  "name": "pole-position",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "pretest": "node_modules/jshint/bin/jshint .",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpil/pole-position.git"
+  },
+  "author": "Louis Pilfold <louis@lpil.uk>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lpil/pole-position/issues"
+  },
+  "homepage": "https://github.com/lpil/pole-position#readme",
+  "dependencies": {
+    "babel-brunch": "^5.1.2",
+    "brunch": "^1.8.5",
+    "javascript-brunch": "^1.7.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "jshint": "^2.8.0",
+    "karma": "^0.13.9",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1"
+  }
+}
