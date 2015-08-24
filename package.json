@@ -4,8 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "node_modules/brunch/bin/brunch watch --server",
     "pretest": "node_modules/jshint/bin/jshint .",
-    "test": "karma start"
+    "test": "node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
