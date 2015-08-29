@@ -1,5 +1,5 @@
-scss_files: 'app/assets/stylesheets/**/*.scss'
-exclude: 'app/assets/stylesheets/vendor/**'
+scss_files: 'stylesheets/**/*.scss'
+exclude: 'stylesheets/vendor/**'
 
 plugin_directories: ['.scss-linters']
 
