@@ -1,7 +1,7 @@
 'use strict';
 
 import Move     from 'models/move';
-import infoCtrl from 'controllers/info';
+import location from 'controllers/location';
 
 var search = document.querySelector('.search');
 
@@ -9,7 +9,7 @@ function update() {
   var move = search.value;
   if (Move.exists(move)) {
     Move.select(move);
-    infoCtrl.update();
+    location.set(move);
   }
 }
 

@@ -38,4 +38,8 @@ function selected() {
   return currentlySelected;
 }
 
-export default { all, allNames, exists, select, selected };
+function get(name) {
+  return all[name];
+}
+
+export default { get, all, allNames, exists, select, selected };

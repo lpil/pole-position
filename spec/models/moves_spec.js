@@ -47,3 +47,10 @@ describe('.select() & .selected', () => {
     expect(Move.selected()).toBe('Hello');
   });
 });
+
+describe('.get()', () => {
+  it('is a shorthand for all[]', () => {
+    var monkey = Move.all['Monkey Sunwheel'];
+    expect(Move.get('Monkey Sunwheel')).toBe(monkey);
+  });
+});

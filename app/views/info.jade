@@ -1,0 +1,10 @@
+h2= name
+
+if move.next && move.next.length > 0
+  p Why not try one of these next?
+  ul
+    each next in move.next
+      ul
+        a(href='#' + next)= next
+else
+  p Sorry, no suggestions.

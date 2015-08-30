@@ -2,7 +2,8 @@
 
 import Move from 'models/move';
 
-import searchCtrl from 'controllers/search';
+import searchCtrl   from 'controllers/search';
+import locationCtrl from 'controllers/location';
 
 import datalistView from 'views/datalist';
 
@@ -15,4 +16,5 @@ function populateDatalist() {
 export default function app() {
   populateDatalist();
   searchCtrl.init();
+  locationCtrl.init();
 }
