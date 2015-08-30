@@ -11,12 +11,5 @@ exports.config = {
     },
   },
 
-  paths: {
-    watched: [
-      'app/',
-      'stylesheets/',
-    ],
-  },
-
   npm: { enabled: true },
 };
