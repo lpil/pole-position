@@ -2,25 +2,21 @@
 
 var moves = {
 
-  monkey: {
-    name: 'Monkey',
+  'Monkey': {
     next: [
-      'monkeyBackhook',
-      'monkeyWronghook',
-      'monkeySunwheel',
+      'Monkey Backhook',
+      'Monkey Wronghook',
+      'Monkey Sunwheel',
     ],
   },
 
-  monkeyBackhook: {
-    name: 'Monkey Backhook',
+  'Monkey Backhook': {
   },
   
-  monkeyWronghook: {
-    name: 'Monkey Wronghook',
+  'Monkey Wronghook': {
   },
   
-  monkeySunwheel: {
-    name: 'Monkey Sunwheel',
+  'Monkey Sunwheel': {
   }
 };
 

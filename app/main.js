@@ -1,5 +1,8 @@
 'use strict';
 
+import _     from 'lodash';
+import moves from 'moves';
+
 export default function app() {
-  return 'Hello, world!';
+  // _.forOwn(moves, (move) => console.log(move));
 }
