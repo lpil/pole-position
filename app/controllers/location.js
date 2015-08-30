@@ -30,6 +30,7 @@ function set(hash) {
 
 function init() {
   window.onhashchange = () => update(window.location.hash);
+  update(window.location.hash);
 }
 
 export default { init, set };
