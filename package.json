@@ -28,6 +28,7 @@
     "sass-brunch": "^1.8.11"
   },
   "devDependencies": {
+    "jade-brunch": "^1.8.1",
     "jasmine-core": "^2.3.4",
     "jshint": "^2.8.0",
     "karma": "^0.13.9",

@@ -1,8 +1,14 @@
 'use strict';
 
-import _     from 'lodash';
-import moves from 'moves';
+import moves        from 'models/moves';
+import datalistView from 'views/datalist';
+
+function populateDatalist() {
+  var body = document.querySelector('body'),
+      html = datalistView({ listID: 'moves-list', list: moves.names });
+  body.insertAdjacentHTML('beforeend', html);
+}
 
 export default function app() {
-  // _.forOwn(moves, (move) => console.log(move));
+  populateDatalist();
 }

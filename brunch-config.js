@@ -5,9 +5,13 @@ exports.config = {
     javascripts: {
       joinTo: 'main.js',
     },
+
+    templates: {
+      joinTo: 'main.js',
+    },
+
     stylesheets: {
       joinTo: 'main.css',
-      defaultExtension: 'scss',
     },
   },
 

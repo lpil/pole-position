@@ -1,6 +1,8 @@
 'use strict';
 
-var moves = {
+import _ from 'lodash';
+
+var all = {
 
   'Monkey': {
     next: [
@@ -12,12 +14,14 @@ var moves = {
 
   'Monkey Backhook': {
   },
-  
+
   'Monkey Wronghook': {
   },
-  
+
   'Monkey Sunwheel': {
   }
 };
 
-export default moves;
+var names = _.keys(all);
+
+export default { all, names };
