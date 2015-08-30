@@ -5,7 +5,6 @@
   "main": "main.js",
   "scripts": {
     "start": "node_modules/brunch/bin/brunch watch --server",
-    "pretest": "node_modules/jshint/bin/jshint .",
     "test": "node_modules/karma/bin/karma start"
   },
   "repository": {
@@ -23,14 +22,14 @@
     "brunch": "^1.8.5",
     "clean-css-brunch": "^1.7.2",
     "css-brunch": "^1.7.0",
+    "jade-brunch": "^1.8.1",
     "javascript-brunch": "^1.7.1",
+    "jshint-brunch": "^1.8.0",
     "lodash": "^3.10.1",
     "sass-brunch": "^1.8.11"
   },
   "devDependencies": {
-    "jade-brunch": "^1.8.1",
     "jasmine-core": "^2.3.4",
-    "jshint": "^2.8.0",
     "karma": "^0.13.9",
     "karma-babel-preprocessor": "^5.2.1",
     "karma-jasmine": "^0.3.6",
